@@ -1,4 +1,4 @@
-=== Envato Wordpress Toolkit Library ===
+# Envato Wordpress Toolkit Library
 Contributors: Arman Mirkazemi, Derek Herman, Japh Thomson
 Tags: update, envato, theme, api, toolkit
 Requires at least: 3.0
@@ -7,7 +7,7 @@ Stable tag: 1.2
 
 WordPress Toolkit Library for Envato Marketplace hosted items.
 
-== Description ==
+### Description
 
 This is an example theme to demonstrate usage of the Envato WordPress Toolkit Library. This library is intended for ThemeForest authors to integrate with their WordPress themes, providing automatic update functionality.
 
@@ -18,7 +18,7 @@ Currently this library provides the following functionalities:
 
 See Installation notes for further instructions.
 
-== Installation ==
+### Installation
 
 1. Copy the `envato-wordpress-toolkit-library` folder into your theme folder
 2. View the contents of the `functions.php` for usage examples
@@ -26,7 +26,7 @@ See Installation notes for further instructions.
 4. Instantiate the `Envato_WordPress_Theme_Upgrader` class and call its `check_for_theme_update` and `upgrade_theme` methods at appropriate times. If you want to disable caching be sure to set $allow_cache parameter to false
 5. Your theme should now be able to check for updates and update itself!
 
-== Changelog ==
+### Changelog
 
 = 1.2 =
 * Changed use of cURL to the WordPress HTTP API
